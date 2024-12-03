@@ -9,9 +9,9 @@ const Skills = () => {
         <img src="assets/img/skills.png" className="img-fluid" alt />
       </div>
       <div className="col-lg-6 pt-4 pt-lg-0 content">
-        <h3>Voluptatem dignissimos provident quasi corporis voluptas</h3>
+        <h3>Technologies We Use</h3>
         <p className="fst-italic">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        Our company use wide ranges of technologies to build, deploy, and manage software solutions. Here's a categorized list of the technologies commonly used:
         </p>
         <div className="skills-content skills-animation">
           <div className="progress">
