@@ -85,10 +85,10 @@ const Footer = () => {
           </div>
           <div className="col-lg-4 col-md-12">
             <h4>Follow Us</h4>
-            <p>
+            {/* <p>
               Cras fermentum odio eu feugiat lide par naso tierra videa magna
               derita valies
-            </p>
+            </p> */}
             <div className="social-links d-flex">
               <a href>
                 <i className="bi bi-twitter-x" />

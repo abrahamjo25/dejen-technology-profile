@@ -6,10 +6,10 @@ const Contacts = () => {
       {/* Section Title */}
       <div className="container section-title">
         <h2>Contact</h2>
-        <p>
+        {/* <p>
           Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
           consectetur velit
-        </p>
+        </p> */}
       </div>
       {/* End Section Title */}
       <div className="container" data-aos-delay={100}>
@@ -20,7 +20,7 @@ const Contacts = () => {
                 <i className="bi bi-geo-alt flex-shrink-0" />
                 <div>
                   <h3>Address</h3>
-                  <p>A108 Adam Street, New York, NY 535022</p>
+                  <p>Addis Ababa, Ethiopia</p>
                 </div>
               </div>
               {/* End Info Item */}
@@ -28,7 +28,7 @@ const Contacts = () => {
                 <i className="bi bi-telephone flex-shrink-0" />
                 <div>
                   <h3>Call Us</h3>
-                  <p>+1 5589 55488 55</p>
+                  <p>+251115174696</p>
                 </div>
               </div>
               {/* End Info Item */}

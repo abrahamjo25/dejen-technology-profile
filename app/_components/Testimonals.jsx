@@ -6,22 +6,33 @@ const Testimonals = () => {
   {/* Section Title */}
   <div className="container section-title" >
     <h2>Testimonials</h2>
-    <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
   </div>{/* End Section Title */}
   <div className="container"  data-aos-delay={100}>
     <div className="swiper init-swiper">
       <div className="swiper-wrapper">
         <div className="swiper-slide">
           <div className="testimonial-item">
-            <img src="assets/img/testimonials/testimonials-1.jpg" className="testimonial-img" alt />
-            <h3>Saul Goodman</h3>
-            <h4>Ceo &amp; Founder</h4>
+            {/* <img src="assets/img/testimonials/testimonials-1.jpg" className="testimonial-img" alt /> */}
+            <h3>Nolawi Tadesse </h3>
+            <h4>Founder of Node Consulting PLC </h4>
             <div className="stars">
               <i className="bi bi-star-fill" /><i className="bi bi-star-fill" /><i className="bi bi-star-fill" /><i className="bi bi-star-fill" /><i className="bi bi-star-fill" />
             </div>
             <p>
               <i className="bi bi-quote quote-icon-left" />
-              <span>Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.</span>
+              <span>GreenLight transformed our manual operations into an automated system that saved us hours of work weekly."</span>
+              <i className="bi bi-quote quote-icon-right" />
+            </p>
+
+            <h3>Martha K. </h3>
+            <h4>Operations Manager at Global Manufacturing</h4>
+            <div className="stars">
+              <i className="bi bi-star-fill" /><i className="bi bi-star-fill" /><i className="bi bi-star-fill" /><i className="bi bi-star-fill" /><i className="bi bi-star-fill" />
+            </div>
+            <p>
+              <i className="bi bi-quote quote-icon-left" />
+              <span>GreenLight Technology Solutions transformed our business operations with their custom ERP solution. The system seamlessly integrates all our departments, enhancing efficiency and decision-making. Their team was professional, communicative, and committed to delivering exactly what we needed."
+              </span>
               <i className="bi bi-quote quote-icon-right" />
             </p>
           </div>
@@ -39,6 +50,7 @@ const Testimonals = () => {
               <span>Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.</span>
               <i className="bi bi-quote quote-icon-right" />
             </p>
+            
           </div>
         </div>{/* End testimonial item */}
         <div className="swiper-slide">
