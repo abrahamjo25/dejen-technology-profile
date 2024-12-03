@@ -29,8 +29,8 @@ const Portfolio = () => {
             <li data-filter="*" className="filter-active">
               All
             </li>
-            <li data-filter=".filter-app">Mobile Apps</li>
             <li data-filter=".filter-product">Web Apps</li>
+            <li data-filter=".filter-app">Mobile Apps</li>
             <li data-filter=".filter-branding">Branding & UI/UX</li>
           </ul>
           {/* End Portfolio Filters */}
