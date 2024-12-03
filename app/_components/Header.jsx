@@ -12,7 +12,7 @@ const Header = () => {
           />
           <div>
             <h2 className="sitename mb-0">GreenLight &reg;</h2>
-            <p className="small mb-0">Software Technologies</p>
+            <p className="small mb-0">Software Technology</p>
           </div>
         </a>
         <nav id="navmenu" className="navmenu">

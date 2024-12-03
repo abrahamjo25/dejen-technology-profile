@@ -10,7 +10,7 @@ const Hero = () => {
           >
             <h1>Better Solutions For Your Business</h1>
             <p>
-              We are team of talented software Engineers
+              We are team of talented software Developers
             </p>
             <div className="d-flex">
               <a href="#about" className="btn-get-started">
