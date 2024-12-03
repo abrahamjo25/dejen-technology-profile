@@ -50,10 +50,10 @@ const Team = () => {
             <span>Sr.Software Developer and Cyber security Expert</span>
             {/* <p>Quisquam facilis cum velit laborum corrupti fuga rerum quia</p> */}
             <div className="social">
+              <a href="https://www.linkedin.com/in/abraham-yohannes-a1257a262" target='_blank'> <i className="bi bi-linkedin" /> </a>
               <a href><i className="bi bi-twitter-x" /></a>
               <a href><i className="bi bi-facebook" /></a>
               <a href><i className="bi bi-instagram" /></a>
-              <a href> <i className="bi bi-linkedin" /> </a>
             </div>
           </div>
         </div>
