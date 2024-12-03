@@ -19,7 +19,7 @@ export default function Home() {
       <Header />
       <main className="main">
         <Hero />
-        <Clients />
+        {/* <Clients /> */}
         <About />
         <WhyUs />
         <Skills />

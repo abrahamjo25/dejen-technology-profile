@@ -36,10 +36,10 @@ const Footer = () => {
           <div className="col-lg-4 col-md-6 footer-about">
             <h2 className="">GreenLight</h2>
             <div className="footer-contact pt-3">
-              <p>A108 Adam Street</p>
-              <p>New York, NY 535022</p>
+              <p>Addis Ababa, Ethiopia</p>
+              <p>Bole</p>
               <p className="mt-3">
-                <strong>Phone:</strong> <span>+1 5589 55488 55</span>
+                <strong>Phone:</strong> <span>+25111</span>
               </p>
               <p>
                 <strong>Email:</strong> <span>info@example.com</span>
