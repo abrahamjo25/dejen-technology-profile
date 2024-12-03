@@ -50,17 +50,19 @@ const Footer = () => {
             <h4>Useful Links</h4>
             <ul>
               <li>
-                <i className="bi bi-chevron-right" /> <a href="#">Home</a>
+                <i className="bi bi-chevron-right" /> <a href="#hero">Home</a>
               </li>
               <li>
-                <i className="bi bi-chevron-right" /> <a href="#">About us</a>
+                <i className="bi bi-chevron-right" /> <a href="#about">About us</a>
               </li>
               <li>
-                <i className="bi bi-chevron-right" /> <a href="#">Services</a>
+                <i className="bi bi-chevron-right" /> <a href="#services">Services</a>
               </li>
               <li>
-                <i className="bi bi-chevron-right" />{" "}
-                <a href="#">Terms of service</a>
+                <i className="bi bi-chevron-right" /> <a href="#portfolio">Portfolio</a>
+              </li>
+              <li>
+                <i className="bi bi-chevron-right" /> <a href="#team">Team</a>
               </li>
             </ul>
           </div>
@@ -68,18 +70,15 @@ const Footer = () => {
             <h4>Our Services</h4>
             <ul>
               <li>
-                <i className="bi bi-chevron-right" /> <a href="#">Web Design</a>
+                <i className="bi bi-chevron-right" /> <span>Web Design</span>
               </li>
               <li>
                 <i className="bi bi-chevron-right" />{" "}
-                <a href="#">Web Development</a>
+                <span>Web Development</span>
               </li>
               <li>
                 <i className="bi bi-chevron-right" />{" "}
-                <a href="#">Product Management</a>
-              </li>
-              <li>
-                <i className="bi bi-chevron-right" /> <a href="#">Marketing</a>
+                <span>Product Management</span>
               </li>
             </ul>
           </div>
@@ -104,15 +103,11 @@ const Footer = () => {
       </div>
       <div className="container copyright text-center mt-4">
         <p>
-          © <span>Copyright</span>{" "}
+          © <span>Copyright</span>
           <strong className="px-1 sitename">GreenLight Technology</strong>{" "}
           <span>All Rights Reserved</span>
         </p>
         <div className="credits">
-          {/* All the links in the footer should remain intact. */}
-          {/* You can delete the links only if you've purchased the pro version. */}
-          {/* Licensing information: https://bootstrapmade.com/license/ */}
-          {/* Purchase the pro version with working PHP/AJAX contact form: [buy-url] */}
           Designed by <a href="#">GreenLight Technology</a>
         </div>
       </div>
