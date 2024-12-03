@@ -16,7 +16,7 @@ const Team = () => {
           <div className="member-info">
             <h4>Teketel Assefa</h4>
             <span>Executive Officer</span>
-            <p>Explicabo voluptatem mollitia et repellat qui dolorum quasi</p>
+            {/* <p>Explicabo voluptatem mollitia et repellat qui dolorum quasi</p> */}
             <div className="social">
               <a href><i className="bi bi-twitter-x" /></a>
               <a href><i className="bi bi-facebook" /></a>
@@ -31,8 +31,8 @@ const Team = () => {
           <div className="pic"><img src="assets/img/team/team-2.jpg" className="img-fluid" alt /></div>
           <div className="member-info">
             <h4>Talegeta Mandefro</h4>
-            <span>Sr.Software Developer</span>
-            <p>Aut maiores voluptates amet et quis praesentium qui senda para</p>
+            <span>Senior Software Developer</span>
+            {/* <p>Aut maiores voluptates amet et quis praesentium qui senda para</p> */}
             <div className="social">
               <a href><i className="bi bi-twitter-x" /></a>
               <a href><i className="bi bi-facebook" /></a>
@@ -46,9 +46,9 @@ const Team = () => {
         <div className="team-member d-flex align-items-start">
           <div className="pic"><img src="assets/img/team/team-3.jpg" className="img-fluid" alt /></div>
           <div className="member-info">
-            <h4>Abrham Yohans</h4>
-            <span>Sr.SoftWare Developer and Cyber security Expert</span>
-            <p>Quisquam facilis cum velit laborum corrupti fuga rerum quia</p>
+            <h4>Abrham Yohannes</h4>
+            <span>Sr.Software Developer and Cyber security Expert</span>
+            {/* <p>Quisquam facilis cum velit laborum corrupti fuga rerum quia</p> */}
             <div className="social">
               <a href><i className="bi bi-twitter-x" /></a>
               <a href><i className="bi bi-facebook" /></a>
@@ -63,8 +63,8 @@ const Team = () => {
           <div className="pic"><img src="assets/img/team/team-4.jpg" className="img-fluid" alt /></div>
           <div className="member-info">
             <h4>Worke Delelegn</h4>
-            <span>Business analyst And Admin Asistant </span>
-            <p>Dolorum tempora officiis odit laborum officiis et et accusamus</p>
+            <span>Business analyst and Admin Asistant </span>
+            {/* <p>Dolorum tempora officiis odit laborum officiis et et accusamus</p> */}
             <div className="social">
               <a href><i className="bi bi-twitter-x" /></a>
               <a href><i className="bi bi-facebook" /></a>

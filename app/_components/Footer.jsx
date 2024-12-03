@@ -39,10 +39,10 @@ const Footer = () => {
               <p>Addis Ababa, Ethiopia</p>
               <p>Bole</p>
               <p className="mt-3">
-                <strong>Phone:</strong> <span>+25111</span>
+                <strong>Phone:</strong> <span>+251115174696</span>
               </p>
               <p>
-                <strong>Email:</strong> <span>info@example.com</span>
+                <strong>Email:</strong> <span>info@greenlight.com</span>
               </p>
             </div>
           </div>
@@ -85,11 +85,10 @@ const Footer = () => {
           </div>
           <div className="col-lg-4 col-md-12">
             <h4>Follow Us</h4>
-            <p>
-              Cras fermentum odio eu feugiat lide par naso tierra videa magna
-              derita valies
-            </p>
             <div className="social-links d-flex">
+              <a href>
+                <i className="bi bi-linkedin" />
+              </a>
               <a href>
                 <i className="bi bi-twitter-x" />
               </a>
@@ -98,9 +97,6 @@ const Footer = () => {
               </a>
               <a href>
                 <i className="bi bi-instagram" />
-              </a>
-              <a href>
-                <i className="bi bi-linkedin" />
               </a>
             </div>
           </div>
