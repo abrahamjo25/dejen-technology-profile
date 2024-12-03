@@ -40,9 +40,6 @@ const Header = () => {
           </ul>
           <i className="mobile-nav-toggle d-xl-none bi bi-list" />
         </nav>
-        <a className="btn-getstarted" href="#about">
-          Get Started
-        </a>
       </div>
     </header>
   );
