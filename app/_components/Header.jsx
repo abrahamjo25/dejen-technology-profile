@@ -11,7 +11,9 @@ const Header = () => {
             className="me-2"
           />
           <div>
-            <h2 className="sitename mb-0">GreenLight &reg;</h2>
+            <h2 className="sitename mb-0">
+              GreenLight <span className="small">&reg;</span>
+            </h2>
             <p className="small mb-0">Software Technology</p>
           </div>
         </a>
