@@ -31,7 +31,7 @@ const Team = () => {
           <div className="pic"><img src="assets/img/team/team-2.jpg" className="img-fluid" alt /></div>
           <div className="member-info">
             <h4>Talegeta Mandefro</h4>
-            <span>Senior Software Developer</span>
+            <span>Senior Software Developer & Program Cordinator</span>
             {/* <p>Aut maiores voluptates amet et quis praesentium qui senda para</p> */}
             <div className="social">
               <a href><i className="bi bi-twitter-x" /></a>
