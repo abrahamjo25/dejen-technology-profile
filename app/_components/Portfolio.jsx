@@ -37,7 +37,7 @@ const Portfolio = () => {
 
           <div className="row gy-4 isotope-container" data-aos-delay={200}>
             <div className="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-              <img src="assets/projects/1.png" className="img-fluid" alt />
+              <img src="assets/projects/1.jpg" className="img-fluid" alt />
               <div className="portfolio-info">
                 <h4>Addis International Hotel</h4>
                 <p>
@@ -45,7 +45,7 @@ const Portfolio = () => {
                   overall hotel services including financial management.
                 </p>
                 <a
-                  href="assets/projects/1.png"
+                  href="assets/projects/1.jpg"
                   title="Web App 1"
                   data-gallery="portfolio-gallery-product"
                   className="glightbox preview-link"
