@@ -37,6 +37,24 @@ const Portfolio = () => {
 
           <div className="row gy-4 isotope-container" data-aos-delay={200}>
             <div className="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+              <img src="assets/projects/1.png" className="img-fluid" alt />
+              <div className="portfolio-info">
+                <h4>Addis International Hotel</h4>
+                <p>
+                  A Hotel Management system including Restorant, Pension, and
+                  overall hotel services including financial management.
+                </p>
+                <a
+                  href="assets/projects/1.png"
+                  title="Web App 1"
+                  data-gallery="portfolio-gallery-product"
+                  className="glightbox preview-link"
+                >
+                  <i className="bi bi-zoom-in" />
+                </a>
+              </div>
+            </div>
+            <div className="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
               <img src="assets/projects/2.png" className="img-fluid" alt />
               <div className="portfolio-info">
                 <h4>Efficient File Exchange App</h4>
@@ -153,15 +171,12 @@ const Portfolio = () => {
             {/* End Portfolio Item */}
 
             <div className="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-              <img
-                src="assets/projects/7.png"
-                className="img-fluid"
-                alt
-              />
+              <img src="assets/projects/7.png" className="img-fluid" alt />
               <div className="portfolio-info">
                 <h4>Node Consult financial management system</h4>
                 <p>
-                  A comprehensive financial management system designed for Node consult company.
+                  A comprehensive financial management system designed for Node
+                  consult company.
                 </p>
                 <a
                   href="assets/projects/7.png"
