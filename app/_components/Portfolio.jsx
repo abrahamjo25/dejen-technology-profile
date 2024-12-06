@@ -54,6 +54,25 @@ const Portfolio = () => {
                 </a>
               </div>
             </div>
+
+            <div className="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+              <img src="assets/projects/7.png" className="img-fluid" alt />
+              <div className="portfolio-info">
+                <h4>Node Consult financial management system</h4>
+                <p>
+                  A comprehensive financial management system designed for Node
+                  consult company.
+                </p>
+                <a
+                  href="assets/projects/7.png"
+                  title="Branding Project 2"
+                  data-gallery="portfolio-gallery-branding"
+                  className="glightbox preview-link"
+                >
+                  <i className="bi bi-zoom-in" />
+                </a>
+              </div>
+            </div>
             <div className="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
               <img src="assets/projects/2.png" className="img-fluid" alt />
               <div className="portfolio-info">
@@ -169,25 +188,6 @@ const Portfolio = () => {
               </div>
             </div>
             {/* End Portfolio Item */}
-
-            <div className="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-              <img src="assets/projects/7.png" className="img-fluid" alt />
-              <div className="portfolio-info">
-                <h4>Node Consult financial management system</h4>
-                <p>
-                  A comprehensive financial management system designed for Node
-                  consult company.
-                </p>
-                <a
-                  href="assets/projects/7.png"
-                  title="Branding Project 2"
-                  data-gallery="portfolio-gallery-branding"
-                  className="glightbox preview-link"
-                >
-                  <i className="bi bi-zoom-in" />
-                </a>
-              </div>
-            </div>
           </div>
           {/* End Portfolio Container */}
         </div>
