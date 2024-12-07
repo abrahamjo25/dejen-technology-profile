@@ -34,10 +34,10 @@ const Team = () => {
             <span>Project Manager</span>
             {/* <p>Aut maiores voluptates amet et quis praesentium qui senda para</p> */}
             <div className="social">
+              <a href="https://www.linkedin.com/in/talegeta-mandefro-687918237/"> <i className="bi bi-linkedin" /> </a>
               <a href><i className="bi bi-twitter-x" /></a>
               <a href><i className="bi bi-facebook" /></a>
               <a href><i className="bi bi-instagram" /></a>
-              <a href> <i className="bi bi-linkedin" /> </a>
             </div>
           </div>
         </div>
