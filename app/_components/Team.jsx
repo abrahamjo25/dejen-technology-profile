@@ -31,7 +31,7 @@ const Team = () => {
           <div className="pic"><img src="assets/img/team/team-2.jpg" className="img-fluid" alt /></div>
           <div className="member-info">
             <h4>Talegeta Mandefro</h4>
-            <span>Senior Software Developer & Project Cordinator</span>
+            <span>Project Manager</span>
             {/* <p>Aut maiores voluptates amet et quis praesentium qui senda para</p> */}
             <div className="social">
               <a href><i className="bi bi-twitter-x" /></a>
@@ -46,8 +46,8 @@ const Team = () => {
         <div className="team-member d-flex align-items-start">
           <div className="pic"><img src="assets/img/team/team-3.jpg" className="img-fluid" alt /></div>
           <div className="member-info">
-            <h4>Abrham Yohannes</h4>
-            <span>Sr.Software Developer and Cyber security Expert</span>
+            <h4>Abraham Yohannes</h4>
+            <span>TL. Software Design & Development</span>
             {/* <p>Quisquam facilis cum velit laborum corrupti fuga rerum quia</p> */}
             <div className="social">
               <a href="https://www.linkedin.com/in/abraham-yohannes-a1257a262" target='_blank'> <i className="bi bi-linkedin" /> </a>
