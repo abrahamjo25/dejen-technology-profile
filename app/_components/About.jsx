@@ -11,7 +11,7 @@ const About = () => {
     <div className="row gy-4">
       <div className="col-lg-6 content"  data-aos-delay={100}>
         <p>
-          Greenlight Technology Solutions is a dynamic software development company committed 
+          Dejen Technology Solutions is a dynamic software development company committed 
           to delivering cutting-edge technology solutions tailored to the unique needs of businesses. 
           Founded in 2019 and headquartered in Addis Ababa, Ethiopia, we have been at the forefront of bridging 
           innovation with practicality, helping organizations achieve their objectives with scalable and impactful software solutions.
@@ -20,7 +20,7 @@ Our company specializes in creating tailored digital solutions that enhance oper
 streamline processes, and provide businesses with the tools they need to thrive in a competitive landscape. With expertise spanning various industries,
  we serve clients ranging from startups to established enterprises, offering solutions that align with their unique goals and challenges.
  <br/><br/>
- At Greenlight Technology Solutions, we understand that every business is different. That’s why we take a consultative approach to deeply understand our clients' needs, 
+ At Dejen Technology Solutions, we understand that every business is different. That’s why we take a consultative approach to deeply understand our clients' needs, 
  ensuring our solutions are not only innovative but also practical and result oriented.
         </p>
         {/* <ul>
@@ -34,7 +34,7 @@ streamline processes, and provide businesses with the tools they need to thrive 
           We combine creativity and technical expertise to design solutions that drive tangible results and sustainable growth for businesses worldwide.
           <br/><br/>
           As a forward-thinking company, we are dedicated to staying ahead of technological trends, 
-          ensuring our clients benefit from the most advanced and reliable solutions available. By partnering with Greenlight Technology Solutions, businesses gain a trusted technology ally that’s committed to their success.
+          ensuring our clients benefit from the most advanced and reliable solutions available. By partnering with Dejen Technology Solutions, businesses gain a trusted technology ally that’s committed to their success.
 
           <br/><br/>
           <h4>Mission:</h4>

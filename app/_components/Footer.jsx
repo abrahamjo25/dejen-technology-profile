@@ -34,7 +34,7 @@ const Footer = () => {
       <div className="container footer-top">
         <div className="row gy-4">
           <div className="col-lg-4 col-md-6 footer-about">
-            <h2 className="">GreenLight</h2>
+            <h2 className="">Dejen</h2>
             <div className="footer-contact pt-3">
               <p>Addis Ababa, Ethiopia</p>
               <p>Bole</p>
@@ -42,7 +42,7 @@ const Footer = () => {
                 <strong>Phone:</strong> <span>+251115174696</span>
               </p>
               <p>
-                <strong>Email:</strong> <span>info@greenlight.com</span>
+                <strong>Email:</strong> <span>info@dejen.com</span>
               </p>
             </div>
           </div>
@@ -104,11 +104,11 @@ const Footer = () => {
       <div className="container copyright text-center mt-4">
         <p>
           © <span>Copyright</span>
-          <strong className="px-1 sitename">GreenLight Technology</strong>{" "}
+          <strong className="px-1 sitename">Dejen Technology</strong>{" "}
           <span>All Rights Reserved</span>
         </p>
         <div className="credits">
-          Designed by <a href="#">GreenLight Technology</a>
+          Designed by <a href="#">Dejen Technology</a>
         </div>
       </div>
     </footer>

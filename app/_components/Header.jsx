@@ -7,12 +7,12 @@ const Header = () => {
         <a href="#" className="logo d-flex align-items-center me-auto">
           <img
             src="assets/img/green-light-logo.png"
-            alt="GreenLight Logo"
+            alt="Dejen Logo"
             className="me-2"
           />
           <div>
             <h2 className="sitename mb-0">
-              GreenLight <span className="small">&reg;</span>
+              Dejen <span className="small">&reg;</span>
             </h2>
             <p className="small mb-0">Software Technology</p>
           </div>

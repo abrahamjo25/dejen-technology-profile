@@ -20,7 +20,7 @@ const Testimonals = () => {
             </div>
             <p>
               <i className="bi bi-quote quote-icon-left" />
-              <span>GreenLight transformed our manual operations into an automated system that saved us hours of work weekly."</span>
+              <span>Dejen transformed our manual operations into an automated system that saved us hours of work weekly."</span>
               <i className="bi bi-quote quote-icon-right" />
             </p>
 
@@ -31,7 +31,7 @@ const Testimonals = () => {
             </div>
             <p>
               <i className="bi bi-quote quote-icon-left" />
-              <span>GreenLight Technology Solutions transformed our business operations with their custom ERP solution. The system seamlessly integrates all our departments, enhancing efficiency and decision-making. Their team was professional, communicative, and committed to delivering exactly what we needed."
+              <span>Dejen Technology Solutions transformed our business operations with their custom ERP solution. The system seamlessly integrates all our departments, enhancing efficiency and decision-making. Their team was professional, communicative, and committed to delivering exactly what we needed."
               </span>
               <i className="bi bi-quote quote-icon-right" />
             </p>
