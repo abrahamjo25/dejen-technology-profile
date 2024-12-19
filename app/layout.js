@@ -1,12 +1,18 @@
 export const metadata = {
   title: "Dejen Technologies Inc",
-  description: "Dejen Technologies is a dynamic software technology development company",
+  description:
+    "Dejen Technologies is a dynamic software technology development company",
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
+        <script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5470334806639013"
+          crossorigin="anonymous"
+        ></script>
         <meta charSet="utf-8" />
         <meta content="width=device-width, initial-scale=1.0" name="viewport" />
         {/* Favicons */}
@@ -41,9 +47,7 @@ export default function RootLayout({ children }) {
         <link href="assets/css/main.css" rel="stylesheet" />
       </head>
 
-      <body >
-        {children}
-      </body>
+      <body>{children}</body>
     </html>
   );
 }
