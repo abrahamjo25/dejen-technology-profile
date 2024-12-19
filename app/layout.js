@@ -13,6 +13,7 @@ export default function RootLayout({ children }) {
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5470334806639013"
           crossorigin="anonymous"
         ></script>
+
         <meta charSet="utf-8" />
         <meta content="width=device-width, initial-scale=1.0" name="viewport" />
         {/* Favicons */}
