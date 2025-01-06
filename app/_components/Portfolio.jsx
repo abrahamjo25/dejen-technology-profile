@@ -73,7 +73,7 @@ const Portfolio = () => {
                 </a>
               </div>
             </div>
-            <div className="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+            {/* <div className="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
               <img src="assets/projects/8.png" className="img-fluid" alt />
               <div className="portfolio-info">
                 <h4>Ethiopian Ministry of Justice</h4>
@@ -89,7 +89,7 @@ const Portfolio = () => {
                   <i className="bi bi-zoom-in" />
                 </a>
               </div>
-            </div>
+            </div> */}
             <div className="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
               <img src="assets/projects/2.png" className="img-fluid" alt />
               <div className="portfolio-info">

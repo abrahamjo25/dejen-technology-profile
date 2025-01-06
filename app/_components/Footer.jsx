@@ -39,10 +39,10 @@ const Footer = () => {
               <p>Addis Ababa, Ethiopia</p>
               <p>Bole</p>
               <p className="mt-3">
-                <strong>Phone:</strong> <span>+251115174696</span>
+                <strong>Phone:</strong> <span>+251920223703</span>
               </p>
               <p>
-                <strong>Email:</strong> <span>info@dejen.com</span>
+                <strong>Email:</strong> <span>abirham.johannes@gmail.com</span>
               </p>
             </div>
           </div>
@@ -53,13 +53,16 @@ const Footer = () => {
                 <i className="bi bi-chevron-right" /> <a href="#hero">Home</a>
               </li>
               <li>
-                <i className="bi bi-chevron-right" /> <a href="#about">About us</a>
+                <i className="bi bi-chevron-right" />{" "}
+                <a href="#about">About us</a>
               </li>
               <li>
-                <i className="bi bi-chevron-right" /> <a href="#services">Services</a>
+                <i className="bi bi-chevron-right" />{" "}
+                <a href="#services">Services</a>
               </li>
               <li>
-                <i className="bi bi-chevron-right" /> <a href="#portfolio">Portfolio</a>
+                <i className="bi bi-chevron-right" />{" "}
+                <a href="#portfolio">Portfolio</a>
               </li>
               <li>
                 <i className="bi bi-chevron-right" /> <a href="#team">Team</a>

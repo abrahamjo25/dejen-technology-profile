@@ -28,7 +28,7 @@ const Contacts = () => {
                 <i className="bi bi-telephone flex-shrink-0" />
                 <div>
                   <h3>Call Us</h3>
-                  <p>+251115174696</p>
+                  <p>+251920223703</p>
                 </div>
               </div>
               {/* End Info Item */}
@@ -36,7 +36,7 @@ const Contacts = () => {
                 <i className="bi bi-envelope flex-shrink-0" />
                 <div>
                   <h3>Email Us</h3>
-                  <p>info@example.com</p>
+                  <p>abirham.johannes@gmail.com</p>
                 </div>
               </div>
               {/* End Info Item */}
