@@ -12,7 +12,7 @@ const Header = () => {
           />
           <div>
             <h2 className="sitename mb-0">
-              Dejen <span className="small">&reg;</span>
+              DEJEN <span className="small text-xs">&reg;</span>
             </h2>
             <p className="small mb-0">Software Technology</p>
           </div>
