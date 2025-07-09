@@ -17,14 +17,10 @@ const Team = () => {
           <div className="col-lg-6" data-aos-delay={100}>
             <div className="team-member d-flex align-items-start">
               <div className="pic">
-                <img
-                  src="assets/img/team/team-1.jpg"
-                  className="img-fluid"
-                  alt
-                />
+                <img src="assets/img/team/tea.jpg" className="img-fluid" alt />
               </div>
               <div className="member-info">
-                <h4>Teketel Assefa</h4>
+                <h4>Sewlesew Biazen</h4>
                 <span>Software Developer</span>
                 {/* <p>Explicabo voluptatem mollitia et repellat qui dolorum quasi</p> */}
                 <div className="social">
@@ -116,15 +112,11 @@ const Team = () => {
           <div className="col-lg-6" data-aos-delay={400}>
             <div className="team-member d-flex align-items-start">
               <div className="pic">
-                <img
-                  src="assets/img/team/team-4.jpg"
-                  className="img-fluid"
-                  alt
-                />
+                <img src="assets/img/team/tea.jpg" className="img-fluid" alt />
               </div>
               <div className="member-info">
-                <h4>Worke Delelegn</h4>
-                <span>Business analyst and Admin Asistant </span>
+                <h4>Mikias Wendim</h4>
+                <span>Software Developer </span>
                 {/* <p>Dolorum tempora officiis odit laborum officiis et et accusamus</p> */}
                 <div className="social">
                   <a href>
