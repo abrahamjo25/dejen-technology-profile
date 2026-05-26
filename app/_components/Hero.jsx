@@ -2,6 +2,7 @@ import React from "react";
 
 const Hero = () => {
   return (
+    // hero section
     <section id="hero" className="hero section dark-background">
       <div className="container">
         <div className="row gy-4">
@@ -15,7 +16,7 @@ const Hero = () => {
             </p>
             <div className="d-flex">
               <a href="#about" className="btn-get-started">
-                Get Started
+                Get Started 
               </a>
             </div>
           </div>
