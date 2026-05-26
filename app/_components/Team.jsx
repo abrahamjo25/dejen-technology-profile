@@ -17,7 +17,11 @@ const Team = () => {
           <div className="col-lg-6" data-aos-delay={100}>
             <div className="team-member d-flex align-items-start">
               <div className="pic">
-                <img src="assets/img/team/tea.jpg" className="img-fluid" alt />
+                <img
+                  src="assets/img/team/team.jpg"
+                  className="img-fluid"
+                  alt=""
+                />
               </div>
               <div className="member-info">
                 <h4>Sewlesew Biazen</h4>
@@ -48,7 +52,7 @@ const Team = () => {
                 <img
                   src="assets/img/team/team-2.jpg"
                   className="img-fluid"
-                  alt
+                  alt=""
                 />
               </div>
               <div className="member-info">
@@ -80,7 +84,7 @@ const Team = () => {
                 <img
                   src="assets/img/team/team-3.jpg"
                   className="img-fluid"
-                  alt
+                  alt=""
                 />
               </div>
               <div className="member-info">
@@ -112,7 +116,11 @@ const Team = () => {
           <div className="col-lg-6" data-aos-delay={400}>
             <div className="team-member d-flex align-items-start">
               <div className="pic">
-                <img src="assets/img/team/tea.jpg" className="img-fluid" alt />
+                <img
+                  src="assets/img/team/team.jpg"
+                  className="img-fluid"
+                  alt=""
+                />
               </div>
               <div className="member-info">
                 <h4>Habtamu Awoke</h4>

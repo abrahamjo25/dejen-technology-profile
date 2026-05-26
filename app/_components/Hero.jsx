@@ -21,7 +21,7 @@ const Hero = () => {
             <img
               src="assets/img/hero-img.png"
               className="img-fluid animated"
-              alt="true"
+              alt=""
             />
           </div>
         </div>

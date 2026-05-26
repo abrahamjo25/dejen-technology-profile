@@ -7,7 +7,7 @@ const Portfolio = () => {
       <div className="container section-title">
         <h2>Our Portfolio</h2>
         <p>
-          Discover the diverse software solutions we've developed to help
+          Discover the diverse software solutions we&apos;ve developed to help
           businesses thrive in the digital world. From custom mobile apps to
           scalable web applications, our portfolio showcases our expertise in
           crafting innovative technology solutions.
@@ -37,7 +37,7 @@ const Portfolio = () => {
 
           <div className="row gy-4 isotope-container" data-aos-delay={200}>
             <div className="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-              <img src="assets/projects/1.jpg" className="img-fluid" alt />
+              <img src="assets/projects/1.jpg" className="img-fluid" alt="" />
               <div className="portfolio-info">
                 <h4>Addis International Hotel</h4>
                 <p>
@@ -56,7 +56,7 @@ const Portfolio = () => {
             </div>
 
             <div className="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-              <img src="assets/projects/7.png" className="img-fluid" alt />
+              <img src="assets/projects/7.png" className="img-fluid" alt="" />
               <div className="portfolio-info">
                 <h4>Node Consult financial management system</h4>
                 <p>
@@ -91,7 +91,7 @@ const Portfolio = () => {
               </div>
             </div> */}
             <div className="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-              <img src="assets/projects/2.png" className="img-fluid" alt />
+              <img src="assets/projects/2.png" className="img-fluid" alt="" />
               <div className="portfolio-info">
                 <h4>Efficient File Exchange App</h4>
                 <p>
@@ -114,7 +114,7 @@ const Portfolio = () => {
             {/* End Portfolio Item */}
 
             <div className="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-              <img src="assets/projects/3.png" className="img-fluid" alt />
+              <img src="assets/projects/3.png" className="img-fluid" alt="" />
               <div className="portfolio-info">
                 <h4>
                   Employee promotion and competative achievment Coaching
@@ -137,13 +137,13 @@ const Portfolio = () => {
             {/* End Portfolio Item */}
 
             <div className="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-              <img src="assets/projects/4.png" className="img-fluid" alt />
+              <img src="assets/projects/4.png" className="img-fluid" alt="" />
               <div className="portfolio-info">
                 <h4>Real Estate Sales and Rental Services</h4>
                 <p>
                   Discover your dream home with our top-notch real estate
-                  services. Whether you're looking to buy, sell, or rent, we
-                  offer a wide range of properties to suit all needs and
+                  services. Whether you&apos;re looking to buy, sell, or rent,
+                  we offer a wide range of properties to suit all needs and
                   budgets. Explore listings, get expert advice, and find the
                   perfect property today.
                 </p>
@@ -160,7 +160,7 @@ const Portfolio = () => {
             {/* End Portfolio Item */}
 
             <div className="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-              <img src="assets/projects/5.jpg" className="img-fluid" alt />
+              <img src="assets/projects/5.jpg" className="img-fluid" alt="" />
               <div className="portfolio-info">
                 <h4>Modern NextJS and Tailwind CSS Website Template</h4>
                 <p>
@@ -183,7 +183,7 @@ const Portfolio = () => {
             {/* End Portfolio Item */}
 
             <div className="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-              <img src="assets/projects/6.png" className="img-fluid" alt />
+              <img src="assets/projects/6.png" className="img-fluid" alt="" />
               <div className="portfolio-info">
                 <h4>Legal Case Management System</h4>
                 <p>
