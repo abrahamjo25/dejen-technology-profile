@@ -6,8 +6,13 @@ const Hero = () => {
       <div className="container">
         <div className="row gy-4">
           <div className="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center">
-            <h1>Better Solutions For Your Business</h1>
-            <p>We are team of talented software Developers</p>
+            <h1>
+              Empowering labour unions, trade associations, churches,
+              cooperatives, and membership-based institutions.
+            </h1>
+            <p>
+              We provide innovative solutions to help these organizations streamline their operations and enhance their impact.
+            </p>
             <div className="d-flex">
               <a href="#about" className="btn-get-started">
                 Get Started
