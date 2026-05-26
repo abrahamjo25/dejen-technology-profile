@@ -1,10 +1,11 @@
 import React from "react";
+import Link from "next/link";
 
 const Header = () => {
   return (
     <header id="header" className="header d-flex align-items-center fixed-top">
       <div className="container-fluid container-xl position-relative d-flex align-items-center">
-        <a href="#" className="logo d-flex align-items-center me-auto">
+        <Link href="#" className="logo d-flex align-items-center me-auto">
           <img
             src="assets/img/green-light-logo.png"
             alt="Dejen Logo"
@@ -17,7 +18,7 @@ const Header = () => {
             </h2>
             <p className="small mb-0">Software Technology</p>
           </div>
-        </a>
+        </Link>
         <nav id="navmenu" className="navmenu">
           <ul>
             <li>
