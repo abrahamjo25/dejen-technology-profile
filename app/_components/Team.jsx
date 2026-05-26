@@ -115,7 +115,7 @@ const Team = () => {
                 <img src="assets/img/team/tea.jpg" className="img-fluid" alt />
               </div>
               <div className="member-info">
-                <h4>Mikias Wendim</h4>
+                <h4>Habtamu Awoke</h4>
                 <span>Software Developer </span>
                 {/* <p>Dolorum tempora officiis odit laborum officiis et et accusamus</p> */}
                 <div className="social">

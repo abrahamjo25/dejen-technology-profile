@@ -6,38 +6,38 @@
   --nav-font: "Poppins", sans-serif;
 }
 
-/* Global Colors */
+/* Global Colors - Matched to your icon (purple tech / ERP branding) */
 :root {
-  --background-color: #f5fdf7; /* Light green for a clean, fresh background */
-  --default-color: #2e3d34; /* Deep green-gray for the majority of text content */
-  --heading-color: #2b6b3e; /* Strong green for headings and titles */
-  --accent-color: #48c774; /* Bright green accent for buttons, links, and standout elements */
-  --surface-color: #ffffff; /* White background for cards and boxed elements */
-  --contrast-color: #ffffff; /* Ensures readability on accent and darker backgrounds */
+  --background-color: #120a2a; /* deep dark purple background */
+  --default-color: #e6dcff; /* soft lavender text for readability */
+  --heading-color: #b26cff; /* bright violet for headings */
+  --accent-color: #8b5cf6; /* primary neon purple accent */
+  --surface-color: #1f143a; /* dark glass card surfaces */
+  --contrast-color: #ffffff; /* high contrast white */
 }
 
 /* Nav Menu Colors */
 :root {
-  --nav-color: #ffffff; /* White for navigation links to contrast with a green nav bar */
-  --nav-hover-color: #48c774; /* Bright green for hover states */
-  --nav-mobile-background-color: #2b6b3e; /* Strong green for mobile navigation menu background */
-  --nav-dropdown-background-color: #f5fdf7; /* Light green for dropdown items */
-  --nav-dropdown-color: #2e3d34; /* Deep green-gray for dropdown links */
-  --nav-dropdown-hover-color: #48c774; /* Bright green for hovered dropdown links */
+  --nav-color: #e6dcff; /* light lavender nav links */
+  --nav-hover-color: #a855f7; /* neon hover purple */
+  --nav-mobile-background-color: #1a0f3d; /* deep nav background */
+  --nav-dropdown-background-color: #1f143a; /* glass dropdown */
+  --nav-dropdown-color: #e6dcff; /* readable dropdown text */
+  --nav-dropdown-hover-color: #c084fc; /* soft neon hover */
 }
 
 /* Color Presets */
 .light-background {
-  --background-color: #e9f7ed; /* Softer light green for light sections */
-  --surface-color: #ffffff; /* White for boxed elements */
+  --background-color: #1a0f3d; /* softened dark purple section */
+  --surface-color: #2a1b4a; /* lighter glass card */
 }
 
 .dark-background {
-  --background-color: #2b6b3e; /* Strong green for dark sections */
-  --default-color: #ffffff; /* White text on dark green */
-  --heading-color: #ffffff; /* White for headings on dark sections */
-  --surface-color: #3a8354; /* Muted green for boxed elements */
-  --contrast-color: #ffffff; /* White for contrast text */
+  --background-color: #0b0618; /* deepest purple section */
+  --default-color: #e6dcff; /* readable text */
+  --heading-color: #c084fc; /* glowing headings */
+  --surface-color: #1f143a; /* card surface */
+  --contrast-color: #ffffff;
 }
 
 /* Smooth scroll */
@@ -90,7 +90,7 @@ h6 {
 .php-email-form .sent-message {
   display: none;
   color: #ffffff;
-  background: #059652;
+  background: #a855f7 ;
   text-align: center;
   padding: 15px;
   margin-bottom: 24px;
@@ -131,12 +131,10 @@ h6 {
 # Global Header
 --------------------------------------------------------------*/
 .header {
-  --background-color: #1f4d30; /* Darker green for the header background */
+  --background-color: #2a1458; /* Dark purple for the header background */
   --heading-color: #ffffff; /* White for heading text for high contrast */
   color: var(--default-color); /* Default text color */
-  background-color: var(
-    --background-color
-  ); /* Apply the dark green background */
+  background-color: var(--background-color); /* Apply the dark purple background */
   padding: 15px 0;
   transition: all 0.5s ease; /* Smooth transitions for hover or scroll effects */
   z-index: 997; /* Ensure the header stays on top */

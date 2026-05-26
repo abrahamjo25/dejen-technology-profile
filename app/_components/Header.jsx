@@ -8,6 +8,7 @@ const Header = () => {
           <img
             src="assets/img/green-light-logo.png"
             alt="Dejen Logo"
+            width={60}
             className="me-2"
           />
           <div>

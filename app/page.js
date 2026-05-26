@@ -1,11 +1,9 @@
 "use client";
 import Script from "next/script";
 import About from "./_components/About";
-import Clients from "./_components/Clients";
 import Header from "./_components/Header";
 import Hero from "./_components/Hero";
 import WhyUs from "./_components/WhyUs";
-import Skills from "./_components/Skills";
 import Services from "./_components/Services";
 import Portfolio from "./_components/Portfolio";
 import Team from "./_components/Team";
