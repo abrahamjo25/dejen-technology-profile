@@ -24,16 +24,16 @@ const Team = () => {
                 <span>Software Developer</span>
                 {/* <p>Explicabo voluptatem mollitia et repellat qui dolorum quasi</p> */}
                 <div className="social">
-                  <a href>
+                  <a href="#">
                     <i className="bi bi-twitter-x" />
                   </a>
-                  <a href>
+                  <a href="#">
                     <i className="bi bi-facebook" />
                   </a>
-                  <a href>
+                  <a href="#">
                     <i className="bi bi-instagram" />
                   </a>
-                  <a href>
+                  <a href="#">
                     {" "}
                     <i className="bi bi-linkedin" />{" "}
                   </a>
@@ -60,13 +60,13 @@ const Team = () => {
                     {" "}
                     <i className="bi bi-linkedin" />{" "}
                   </a>
-                  <a href>
+                  <a href="#">
                     <i className="bi bi-twitter-x" />
                   </a>
-                  <a href>
+                  <a href="#">
                     <i className="bi bi-facebook" />
                   </a>
-                  <a href>
+                  <a href="#">
                     <i className="bi bi-instagram" />
                   </a>
                 </div>
@@ -95,13 +95,13 @@ const Team = () => {
                     {" "}
                     <i className="bi bi-linkedin" />{" "}
                   </a>
-                  <a href>
+                  <a href="#">
                     <i className="bi bi-twitter-x" />
                   </a>
-                  <a href>
+                  <a href="#">
                     <i className="bi bi-facebook" />
                   </a>
-                  <a href>
+                  <a href="#">
                     <i className="bi bi-instagram" />
                   </a>
                 </div>
@@ -119,16 +119,16 @@ const Team = () => {
                 <span>Software Developer </span>
                 {/* <p>Dolorum tempora officiis odit laborum officiis et et accusamus</p> */}
                 <div className="social">
-                  <a href>
+                  <a href="#">
                     <i className="bi bi-twitter-x" />
                   </a>
-                  <a href>
+                  <a href="#">
                     <i className="bi bi-facebook" />
                   </a>
-                  <a href>
+                  <a href="#">
                     <i className="bi bi-instagram" />
                   </a>
-                  <a href>
+                  <a href="#">
                     {" "}
                     <i className="bi bi-linkedin" />{" "}
                   </a>

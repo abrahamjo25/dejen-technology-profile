@@ -88,16 +88,16 @@ const Footer = () => {
           <div className="col-lg-4 col-md-12">
             <h4>Follow Us</h4>
             <div className="social-links d-flex">
-              <a href="">
+              <a href="#">
                 <i className="bi bi-linkedin" />
               </a>
-              <a href="">
+              <a href="#">
                 <i className="bi bi-twitter-x" />
               </a>
-              <a href="">
+              <a href="#">
                 <i className="bi bi-facebook" />
               </a>
-              <a href="">
+              <a href="#">
                 <i className="bi bi-instagram" />
               </a>
             </div>

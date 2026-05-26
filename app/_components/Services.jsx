@@ -16,7 +16,7 @@ const Services = () => {
       <div className="col-xl-3 col-md-6 d-flex"  data-aos-delay={100}>
         <div className="service-item position-relative">
           <div className="icon"><i className="bi bi-diagram-3 icon" /></div>
-          <h4><a href className="stretched-link">ERP System Development</a></h4>
+          <h4><a href="#" className="stretched-link">ERP System Development</a></h4>
                   <ul>
           <li><i className="" /> <span> ERP development to specific industries.</span></li>
           <li><i className="" /> <span>Integration with existing systems .</span></li>
@@ -27,21 +27,21 @@ const Services = () => {
       <div className="col-xl-3 col-md-6 d-flex" data-aos-delay={200}>
         <div className="service-item position-relative">
           <div className="icon"> <i className="bi bi-code-slash icon" /></div>
-          <h4><a href className="stretched-link">Software Development</a></h4>
+          <h4><a href="#" className="stretched-link">Software Development</a></h4>
           <p>End-to-end software development for business needs</p>
         </div>
       </div>{/* End Service Item */}
       <div className="col-xl-3 col-md-6 d-flex"  data-aos-delay={300}>
         <div className="service-item position-relative">
           <div className="icon"><i className="bi bi-phone icon"  /></div>
-          <h4><a href className="stretched-link">Mobile App Development</a></h4>
+          <h4><a href="#" className="stretched-link">Mobile App Development</a></h4>
           <p>Development of native and cross-platform mobile applications for iOS and Android</p>
         </div>
       </div>{/* End Service Item */}
       <div className="col-xl-3 col-md-6 d-flex"  data-aos-delay={400}>
         <div className="service-item position-relative">
           <div className="icon"><i className="bi bi-tools icon"/></div>
-          <h4><a href className="stretched-link">IT Consulting & System Support</a></h4>
+          <h4><a href="#" className="stretched-link">IT Consulting & System Support</a></h4>
           <ul>
           <li><i className="" /> <span>Remote IT Support Service.</span></li>
           <li><i className="" /> <span>Physical IT training.</span></li>
