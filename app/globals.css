@@ -1,0 +1,202 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Font families (loaded via <link> in layout head) */
+:root {
+  --font-heading: "Jost";
+  --font-body: "Open Sans";
+  --font-nav: "Poppins";
+  --font-ethiopic: "Noto Sans Ethiopic";
+}
+
+/* ----------------------------------------------------------------
+   Theme tokens — dark (default, current purple) + light (white bg)
+   Colors are driven by CSS variables so toggling [data-theme]
+   instantly re-themes every Tailwind `*-background / *-accent` class.
+----------------------------------------------------------------- */
+:root,
+:root[data-theme="dark"] {
+  --c-bg: #0b0618;
+  --c-bg-2: #120a2a;
+  --c-surface: #1f143a;
+  --c-surface-2: #2a1b4a;
+  --c-fg: #e6dcff;
+  --c-muted: #a99fcf;
+  --c-heading: #ffffff;
+  --c-accent: #8b5cf6;
+  --c-accent-2: #a855f7;
+  --c-line: rgba(139, 92, 246, 0.18);
+
+  --glass-bg: rgba(255, 255, 255, 0.04);
+  --glass-hover: rgba(139, 92, 246, 0.07);
+  --header-bg: rgba(11, 6, 24, 0.65);
+  --input-bg: rgba(11, 6, 24, 0.6);
+  --section-alt: rgba(26, 15, 61, 0.4);
+
+  --orb-1: #8b5cf6;
+  --orb-2: #a855f7;
+  --orb-3: #5b21b6;
+  --orb-opacity: 0.5;
+  --grid-opacity: 0.5;
+
+  --grad-from: #ffffff;
+  --grad-to: #c084fc;
+  color-scheme: dark;
+}
+
+:root[data-theme="light"] {
+  --c-bg: #ffffff;
+  --c-bg-2: #f6f3ff;
+  --c-surface: #ffffff;
+  --c-surface-2: #f3eeff;
+  --c-fg: #4a3f6b;
+  --c-muted: #6f6790;
+  --c-heading: #2a1458;
+  --c-accent: #7c3aed;
+  --c-accent-2: #a855f7;
+  --c-line: rgba(124, 58, 237, 0.18);
+
+  --glass-bg: rgba(124, 58, 237, 0.035);
+  --glass-hover: rgba(124, 58, 237, 0.08);
+  --header-bg: rgba(255, 255, 255, 0.72);
+  --input-bg: rgba(124, 58, 237, 0.04);
+  --section-alt: rgba(124, 58, 237, 0.045);
+
+  --orb-1: #c4b5fd;
+  --orb-2: #ddd6fe;
+  --orb-3: #ede9fe;
+  --orb-opacity: 0.6;
+  --grid-opacity: 0.35;
+
+  --grad-from: #2a1458;
+  --grad-to: #7c3aed;
+  color-scheme: light;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+    transition: background-color 0.4s ease, color 0.4s ease;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-heading text-heading;
+    line-height: 1.15;
+  }
+  ::selection {
+    background: var(--c-accent);
+    color: #fff;
+  }
+}
+
+@layer components {
+  /* aurora background */
+  .aurora-bg {
+    @apply fixed inset-0 -z-10 overflow-hidden pointer-events-none;
+  }
+  .orb {
+    @apply absolute rounded-full;
+    filter: blur(90px);
+    opacity: var(--orb-opacity);
+  }
+  .grid-overlay {
+    @apply fixed inset-0 -z-10 pointer-events-none;
+    background-image: linear-gradient(var(--c-line) 1px, transparent 1px),
+      linear-gradient(90deg, var(--c-line) 1px, transparent 1px);
+    background-size: 64px 64px;
+    opacity: var(--grid-opacity);
+    -webkit-mask-image: radial-gradient(ellipse 80% 60% at 50% 0%, #000 30%, transparent 75%);
+    mask-image: radial-gradient(ellipse 80% 60% at 50% 0%, #000 30%, transparent 75%);
+  }
+
+  .container-x {
+    @apply max-w-container mx-auto px-6;
+  }
+
+  .glass {
+    background: var(--glass-bg);
+    @apply border border-line backdrop-blur-md;
+  }
+
+  .eyebrow {
+    @apply inline-flex items-center gap-2 font-nav text-[13px] font-medium uppercase tracking-[0.18em] text-heading;
+  }
+  .eyebrow::before {
+    content: "";
+    @apply h-px w-6 bg-accent;
+  }
+
+  .grad-text {
+    background: linear-gradient(120deg, var(--grad-from) 30%, var(--grad-to) 80%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 rounded-full font-nav text-[15px] font-medium px-7 py-3 transition-all duration-300 border border-transparent cursor-pointer;
+  }
+  .btn-primary {
+    @apply text-white shadow-glow;
+    background: linear-gradient(135deg, var(--c-accent), var(--c-accent-2));
+  }
+  .btn-primary:hover {
+    @apply -translate-y-0.5 shadow-glow-lg;
+  }
+  .btn-ghost {
+    @apply text-foreground border-line;
+    background: var(--glass-bg);
+    backdrop-filter: blur(8px);
+  }
+  .btn-ghost:hover {
+    @apply border-accent text-heading;
+  }
+
+  .card {
+    @apply glass rounded-2xl p-8 transition-all duration-300;
+  }
+  .card:hover {
+    @apply -translate-y-1.5;
+    background: var(--glass-hover);
+    border-color: var(--c-accent);
+  }
+
+  .icon-badge {
+    @apply grid h-14 w-14 place-items-center rounded-xl border border-line text-heading text-2xl;
+    background: linear-gradient(135deg, rgba(139, 92, 246, 0.25), rgba(168, 85, 247, 0.15));
+  }
+
+  .field {
+    @apply w-full rounded-xl border border-line px-4 py-3 text-[15px] text-foreground outline-none transition-colors;
+    background: var(--input-bg);
+  }
+  .field:focus {
+    border-color: var(--c-accent);
+  }
+}
+
+@layer utilities {
+  /* scroll reveal */
+  .reveal {
+    opacity: 0;
+    transform: translateY(24px);
+    transition: opacity 0.7s ease, transform 0.7s ease;
+  }
+  .reveal.is-visible {
+    opacity: 1;
+    transform: none;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .reveal {
+      opacity: 1;
+      transform: none;
+      transition: none;
+    }
+    html {
+      scroll-behavior: auto;
+    }
+  }
+}
