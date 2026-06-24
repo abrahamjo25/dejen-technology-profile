@@ -11,66 +11,66 @@
 }
 
 /* ----------------------------------------------------------------
-   Theme tokens — dark (default, current purple) + light (white bg)
+   Theme tokens — dark (default, green/cyan) + light (white bg)
    Colors are driven by CSS variables so toggling [data-theme]
    instantly re-themes every Tailwind `*-background / *-accent` class.
 ----------------------------------------------------------------- */
 :root,
 :root[data-theme="dark"] {
-  --c-bg: #0b0618;
-  --c-bg-2: #120a2a;
-  --c-surface: #1f143a;
-  --c-surface-2: #2a1b4a;
-  --c-fg: #e6dcff;
-  --c-muted: #a99fcf;
+  --c-bg: #0a1628;
+  --c-bg-2: #0f1f35;
+  --c-surface: #0f2035;
+  --c-surface-2: #162a42;
+  --c-fg: #e0f2e9;
+  --c-muted: #8fb8a0;
   --c-heading: #ffffff;
-  --c-accent: #8b5cf6;
-  --c-accent-2: #a855f7;
-  --c-line: rgba(139, 92, 246, 0.18);
+  --c-accent: #00ff87;
+  --c-accent-2: #00b4d8;
+  --c-line: rgba(0, 255, 135, 0.18);
 
   --glass-bg: rgba(255, 255, 255, 0.04);
-  --glass-hover: rgba(139, 92, 246, 0.07);
-  --header-bg: rgba(11, 6, 24, 0.65);
-  --input-bg: rgba(11, 6, 24, 0.6);
-  --section-alt: rgba(26, 15, 61, 0.4);
+  --glass-hover: rgba(0, 255, 135, 0.07);
+  --header-bg: rgba(10, 22, 40, 0.65);
+  --input-bg: rgba(10, 22, 40, 0.6);
+  --section-alt: rgba(15, 32, 53, 0.4);
 
-  --orb-1: #8b5cf6;
-  --orb-2: #a855f7;
-  --orb-3: #5b21b6;
+  --orb-1: #00ff87;
+  --orb-2: #00b4d8;
+  --orb-3: #006644;
   --orb-opacity: 0.5;
   --grid-opacity: 0.5;
 
   --grad-from: #ffffff;
-  --grad-to: #c084fc;
+  --grad-to: #00ff87;
   color-scheme: dark;
 }
 
 :root[data-theme="light"] {
   --c-bg: #ffffff;
-  --c-bg-2: #f6f3ff;
+  --c-bg-2: #f0fdf4;
   --c-surface: #ffffff;
-  --c-surface-2: #f3eeff;
-  --c-fg: #4a3f6b;
-  --c-muted: #6f6790;
-  --c-heading: #2a1458;
-  --c-accent: #7c3aed;
-  --c-accent-2: #a855f7;
-  --c-line: rgba(124, 58, 237, 0.18);
+  --c-surface-2: #ecfdf5;
+  --c-fg: #1a3a2a;
+  --c-muted: #4a7a5a;
+  --c-heading: #0a2818;
+  --c-accent: #00cc6a;
+  --c-accent-2: #0099b3;
+  --c-line: rgba(0, 204, 106, 0.18);
 
-  --glass-bg: rgba(124, 58, 237, 0.035);
-  --glass-hover: rgba(124, 58, 237, 0.08);
+  --glass-bg: rgba(0, 204, 106, 0.035);
+  --glass-hover: rgba(0, 204, 106, 0.08);
   --header-bg: rgba(255, 255, 255, 0.72);
-  --input-bg: rgba(124, 58, 237, 0.04);
-  --section-alt: rgba(124, 58, 237, 0.045);
+  --input-bg: rgba(0, 204, 106, 0.04);
+  --section-alt: rgba(0, 204, 106, 0.045);
 
-  --orb-1: #c4b5fd;
-  --orb-2: #ddd6fe;
-  --orb-3: #ede9fe;
+  --orb-1: #86efac;
+  --orb-2: #a5f3fc;
+  --orb-3: #d1fae5;
   --orb-opacity: 0.6;
   --grid-opacity: 0.35;
 
-  --grad-from: #2a1458;
-  --grad-to: #7c3aed;
+  --grad-from: #0a2818;
+  --grad-to: #00cc6a;
   color-scheme: light;
 }
 
@@ -166,7 +166,7 @@
 
   .icon-badge {
     @apply grid h-14 w-14 place-items-center rounded-xl border border-line text-heading text-2xl;
-    background: linear-gradient(135deg, rgba(139, 92, 246, 0.25), rgba(168, 85, 247, 0.15));
+    background: linear-gradient(135deg, rgba(0, 255, 135, 0.25), rgba(0, 180, 216, 0.15));
   }
 
   .field {

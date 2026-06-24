@@ -29,8 +29,8 @@ const config: Config = {
         container: "1180px",
       },
       boxShadow: {
-        glow: "0 8px 30px rgba(139,92,246,.45)",
-        "glow-lg": "0 12px 38px rgba(139,92,246,.6)",
+        glow: "0 8px 30px rgba(0,255,135,.45)",
+        "glow-lg": "0 12px 38px rgba(0,255,135,.6)",
         card: "0 30px 80px rgba(0,0,0,.45)",
       },
       keyframes: {

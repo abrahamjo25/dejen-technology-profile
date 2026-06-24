@@ -6,37 +6,37 @@
   --nav-font: "Poppins", sans-serif;
 }
 
-/* Global Colors - Matched to your icon (purple tech / ERP branding) */
+/* Global Colors - Matched to nitro branding (green/cyan tech) */
 :root {
-  --background-color: #120a2a; /* deep dark purple background */
-  --default-color: #e6dcff; /* soft lavender text for readability */
-  --heading-color: #b26cff; /* bright violet for headings */
-  --accent-color: #8b5cf6; /* primary neon purple accent */
-  --surface-color: #1f143a; /* dark glass card surfaces */
+  --background-color: #0a1628; /* deep dark blue-green background */
+  --default-color: #e0f2e9; /* soft mint text for readability */
+  --heading-color: #00ff87; /* bright green for headings */
+  --accent-color: #00ff87; /* primary neon green accent */
+  --surface-color: #0f2035; /* dark glass card surfaces */
   --contrast-color: #ffffff; /* high contrast white */
 }
 
 /* Nav Menu Colors */
 :root {
-  --nav-color: #e6dcff; /* light lavender nav links */
-  --nav-hover-color: #a855f7; /* neon hover purple */
-  --nav-mobile-background-color: #1a0f3d; /* deep nav background */
-  --nav-dropdown-background-color: #1f143a; /* glass dropdown */
-  --nav-dropdown-color: #e6dcff; /* readable dropdown text */
-  --nav-dropdown-hover-color: #c084fc; /* soft neon hover */
+  --nav-color: #e0f2e9; /* light mint nav links */
+  --nav-hover-color: #00ff87; /* neon hover green */
+  --nav-mobile-background-color: #0f1f35; /* deep nav background */
+  --nav-dropdown-background-color: #0f2035; /* glass dropdown */
+  --nav-dropdown-color: #e0f2e9; /* readable dropdown text */
+  --nav-dropdown-hover-color: #00cc6a; /* soft neon hover */
 }
 
 /* Color Presets */
 .light-background {
-  --background-color: #1a0f3d; /* softened dark purple section */
-  --surface-color: #2a1b4a; /* lighter glass card */
+  --background-color: #0f1f35; /* softened dark blue-green section */
+  --surface-color: #162a42; /* lighter glass card */
 }
 
 .dark-background {
-  --background-color: #0b0618; /* deepest purple section */
-  --default-color: #e6dcff; /* readable text */
-  --heading-color: #c084fc; /* glowing headings */
-  --surface-color: #1f143a; /* card surface */
+  --background-color: #0a1628; /* deepest blue-green section */
+  --default-color: #e0f2e9; /* readable text */
+  --heading-color: #00ff87; /* glowing headings */
+  --surface-color: #0f2035; /* card surface */
   --contrast-color: #ffffff;
 }
 
@@ -90,7 +90,7 @@ h6 {
 .php-email-form .sent-message {
   display: none;
   color: #ffffff;
-  background: #a855f7 ;
+  background: #00cc6a;
   text-align: center;
   padding: 15px;
   margin-bottom: 24px;

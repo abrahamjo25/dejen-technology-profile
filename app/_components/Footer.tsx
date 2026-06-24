@@ -20,7 +20,8 @@ export default function Footer() {
       <div className="container-x py-16">
         <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-[2fr_1fr_1fr_1.4fr]">
           <div>
-            <span className="font-heading text-2xl tracking-[2px] text-heading">DEJEN</span>
+            <span className="font-heading text-2xl font-bold tracking-[3px]" style={{ background: "linear-gradient(135deg, var(--c-accent), var(--c-accent-2))", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent" }}>NITRO</span>
+            <p className="mt-1 font-nav text-[11px] font-medium tracking-[1.5px] uppercase text-muted/80">We Build. You Accelerate.</p>
             <p className="mt-4 max-w-xs text-sm text-muted">{t.tagline}</p>
             <div className="mt-5 flex gap-3">
               {socials.map((s) => (

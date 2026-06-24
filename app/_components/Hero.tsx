@@ -20,9 +20,9 @@ export default function Hero() {
             <a href="#contact" className="btn btn-primary">
               {t.ctaPrimary} <span aria-hidden>→</span>
             </a>
-            <a href="#work" className="btn btn-ghost">
+            {/* <a href="#work" className="btn btn-ghost">
               {t.ctaSecondary}
-            </a>
+            </a> */}
           </div>
           <div className="mt-8 flex items-center gap-3 text-sm text-muted">
             <div className="flex">
@@ -53,7 +53,7 @@ export default function Hero() {
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
                 src="/assets/img/hero-img.png"
-                alt="Dejen software dashboard illustration"
+                alt="nitro software dashboard illustration"
                 className="w-full rounded-2xl"
               />
             </div>

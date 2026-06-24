@@ -22,14 +22,16 @@ export default function CtaBand() {
               <span className="eyebrow">{t.eyebrow}</span>
             </span>
             <h2 className="mt-4 text-3xl font-bold sm:text-4xl">{t.title}</h2>
-            <p className="mx-auto mt-4 max-w-lg text-lg text-muted">{t.subtitle}</p>
+            <p className="mx-auto mt-4 max-w-lg text-lg text-muted">
+              {t.subtitle}
+            </p>
             <div className="mt-8 flex flex-wrap justify-center gap-4">
               <a href="#contact" className="btn btn-primary">
                 {t.primary} <span aria-hidden>→</span>
               </a>
-              <a href="#work" className="btn btn-ghost">
+              {/* <a href="#work" className="btn btn-ghost">
                 {t.secondary}
-              </a>
+              </a> */}
             </div>
           </div>
         </Reveal>

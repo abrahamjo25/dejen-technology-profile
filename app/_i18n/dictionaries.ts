@@ -15,7 +15,7 @@ export const en = {
     subtitle:
       "We design and build ERP systems, custom software, SaaS products and apps — for organizations in every sector, from education and agriculture to finance and government.",
     ctaPrimary: "Book a free consultation",
-    ctaSecondary: "See our work",
+    // ctaSecondary: "See our work",
     trust: "Trusted since 2019 · Addis Ababa, Ethiopia",
     chipErp: "ERP · Finance · HR · CRM",
     chipSpeed: "Live in weeks, not months",
@@ -30,7 +30,7 @@ export const en = {
     eyebrow: "Who we are",
     title: "A software partner that",
     titleAccent: "thinks with you.",
-    body: "Dejen Technology Solutions is a software development company founded in 2019 in Addis Ababa, Ethiopia. We bridge innovation with practicality — building scalable, result-oriented software that helps organizations of every size streamline operations and grow.",
+    body: "nitro is a software development company founded in 2019 in Addis Ababa, Ethiopia. We bridge innovation with practicality — building scalable, result-oriented software that helps organizations of every size streamline operations and grow.",
     missionLabel: "Mission",
     mission:
       "To empower businesses with innovative software that simplifies processes, enhances efficiency, and fosters growth.",
@@ -76,7 +76,8 @@ export const en = {
     eyebrow: "Industries we serve",
     title: "Built for",
     titleAccent: "every sector.",
-    subtitle: "Wherever your organization operates, we adapt the solution to fit.",
+    subtitle:
+      "Wherever your organization operates, we adapt the solution to fit.",
     items: [
       { title: "Education", desc: "Schools, universities, e-learning" },
       { title: "Agriculture", desc: "Supply chain, traceability" },
@@ -117,19 +118,40 @@ export const en = {
     titleAccent: "shipped.",
     subtitle: "Real systems for real organizations across multiple industries.",
     items: [
-      { title: "Addis International Hotel", desc: "Hotel management — restaurant, pension & finance." },
-      { title: "Node Consult Finance", desc: "Comprehensive financial management system." },
-      { title: "Legal Case Management", desc: "Automated platform for managing legal cases." },
-      { title: "Coaching & Training", desc: "Ethiopian Airlines employee promotion system." },
-      { title: "Real Estate Platform", desc: "Property sales & rental services portal." },
-      { title: "File Exchange App", desc: "Ethiopian Airlines ticket file automation." },
+      {
+        title: "Addis International Hotel",
+        desc: "Hotel management — restaurant, pension & finance.",
+      },
+      {
+        title: "Node Consult Finance",
+        desc: "Comprehensive financial management system.",
+      },
+      {
+        title: "Legal Case Management",
+        desc: "Automated platform for managing legal cases.",
+      },
+      {
+        title: "Coaching & Training",
+        desc: "Ethiopian Airlines employee promotion system.",
+      },
+      {
+        title: "Real Estate Platform",
+        desc: "Property sales & rental services portal.",
+      },
+      {
+        title: "File Exchange App",
+        desc: "Ethiopian Airlines ticket file automation.",
+      },
     ],
   },
   team: {
     eyebrow: "Our team",
     title: "The people behind",
     titleAccent: "your software.",
-    role: "Software Developer",
+    roles: {
+      projectManager: "Project Manager",
+      softwareDeveloper: "Software Developer",
+    },
   },
   testimonials: {
     eyebrow: "Testimonials",
@@ -138,7 +160,7 @@ export const en = {
     items: [
       {
         quote:
-          "Dejen transformed our manual operations into an automated system that saved us hours of work every week.",
+          "nitro transformed our manual operations into an automated system that saved us hours of work every week.",
         name: "Nolawi Tadesse",
         role: "Founder, Node Consulting PLC",
         initials: "NT",
@@ -158,7 +180,7 @@ export const en = {
     subtitle:
       "Book a free consultation and we'll map out the right solution for your organization.",
     primary: "Book a free consultation",
-    secondary: "See our work",
+    // secondary: "See our work",
   },
   contact: {
     eyebrow: "Get in touch",
@@ -183,16 +205,20 @@ export const en = {
     send: "Send message",
   },
   footer: {
-    tagline:
-      "Dejen Technology Solutions — building software that empowers organizations to grow since 2019.",
+    tagline: "Software development company — building solutions that drive your growth since 2019.",
     companyLabel: "Company",
     company: ["About", "Services", "Work", "Contact"],
     servicesLabel: "Services",
-    services: ["ERP Systems", "Custom Software", "SaaS Products", "Mobile Apps"],
+    services: [
+      "ERP Systems",
+      "Custom Software",
+      "SaaS Products",
+      "Mobile Apps",
+    ],
     newsletterLabel: "Newsletter",
     newsletterText: "Get product news & updates.",
     emailPlaceholder: "Email",
-    rights: "© 2026 Dejen Technology. All rights reserved.",
+    rights: "© 2026 nitro. All rights reserved.",
   },
   toggles: {
     themeToDark: "Switch to dark theme",
@@ -220,7 +246,7 @@ export const am: Dictionary = {
     subtitle:
       "ለሁሉም ዘርፍ ድርጅቶች — ከትምህርትና ግብርና እስከ ፋይናንስና መንግሥት — የERP ሲስተሞችን፣ ብጁ ሶፍትዌሮችን፣ የSaaS ምርቶችንና አፕሊኬሽኖችን እንነድፋለን፤ እንገነባለንም።",
     ctaPrimary: "ነፃ ምክክር ይያዙ",
-    ctaSecondary: "ስራዎቻችንን ይመልከቱ",
+    // ctaSecondary: "ስራዎቻችንን ይመልከቱ",
     trust: "ከ2019 ጀምሮ የታመነ · አዲስ አበባ፣ ኢትዮጵያ",
     chipErp: "ERP · ፋይናንስ · ሰው ኃይል · CRM",
     chipSpeed: "በሳምንታት ውስጥ ዝግጁ፣ በወራት አይደለም",
@@ -240,15 +266,13 @@ export const am: Dictionary = {
     mission:
       "ሂደቶችን የሚያቃልል፣ ቅልጥፍናን የሚያሳድግና እድገትን የሚያበረታታ ፈጠራዊ ሶፍትዌር ለንግዶች ማቅረብ።",
     visionLabel: "ራዕይ",
-    vision:
-      "የዘርፎችን የወደፊት ዕጣ የሚቀርጽ ለውጥ አምጪ ሶፍትዌር በማቅረብ ዓለም አቀፍ መሪ መሆን።",
+    vision: "የዘርፎችን የወደፊት ዕጣ የሚቀርጽ ለውጥ አምጪ ሶፍትዌር በማቅረብ ዓለም አቀፍ መሪ መሆን።",
   },
   services: {
     eyebrow: "የምንሰራው",
     title: "ሙሉ ሶፍትዌር፣",
     titleAccent: "ERP ቅድሚያ።",
-    subtitle:
-      "ከኢንተርፕራይዝ ERP መድረኮች እስከ የተሟሉ ሞባይል አፕሊኬሽኖች — አንድ ቡድን፣ ሙሉ አቅርቦት።",
+    subtitle: "ከኢንተርፕራይዝ ERP መድረኮች እስከ የተሟሉ ሞባይል አፕሊኬሽኖች — አንድ ቡድን፣ ሙሉ አቅርቦት።",
     flagship: "ዋና",
     items: [
       {
@@ -334,7 +358,10 @@ export const am: Dictionary = {
     eyebrow: "ቡድናችን",
     title: "ከሶፍትዌርዎ ጀርባ",
     titleAccent: "ያሉ ሰዎች።",
-    role: "የሶፍትዌር ገንቢ",
+    roles: {
+      projectManager: "የፕሮጀክት አስኪያጅ",
+      softwareDeveloper: "የሶፍትዌር ገንቢ",
+    },
   },
   testimonials: {
     eyebrow: "ምስክርነቶች",
@@ -342,8 +369,7 @@ export const am: Dictionary = {
     titleAccent: "ይላሉ።",
     items: [
       {
-        quote:
-          "ደጀን የእጅ ስራዎቻችንን በሳምንት ሰዓታት ወደሚቆጥብ አውቶማቲክ ሲስተም ቀየረው።",
+        quote: "ደጀን የእጅ ስራዎቻችንን በሳምንት ሰዓታት ወደሚቆጥብ አውቶማቲክ ሲስተም ቀየረው።",
         name: "ኖላዊ ታደሰ",
         role: "መስራች፣ ኖድ ኮንሰልቲንግ ኃ.የተ.የግ.ማ.",
         initials: "ኖታ",
@@ -362,7 +388,7 @@ export const am: Dictionary = {
     title: "ንግድዎን ለማቀላጠፍ ዝግጁ ነዎት?",
     subtitle: "ነፃ ምክክር ይያዙ፤ ለድርጅትዎ ትክክለኛውን መፍትሄ እናቅዳለን።",
     primary: "ነፃ ምክክር ይያዙ",
-    secondary: "ስራዎቻችንን ይመልከቱ",
+    // secondary: "ስራዎቻችንን ይመልከቱ",
   },
   contact: {
     eyebrow: "ያግኙን",
@@ -387,8 +413,7 @@ export const am: Dictionary = {
     send: "መልዕክት ይላኩ",
   },
   footer: {
-    tagline:
-      "ደጀን ቴክኖሎጂ ሶሉሽንስ — ከ2019 ጀምሮ ድርጅቶችን የሚያበረታታ ሶፍትዌር እየገነባን።",
+    tagline: "የሶፍትዌር ልማት ኩባንያ — እንገነባለን፣ እርስዎ ያድጋሉ።",
     companyLabel: "ኩባንያ",
     company: ["ስለ እኛ", "አገልግሎቶች", "ስራዎች", "አግኙን"],
     servicesLabel: "አገልግሎቶች",
