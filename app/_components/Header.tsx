@@ -45,15 +45,12 @@ export default function Header() {
       }}
     >
       <div className="container-x flex h-16 items-center justify-between gap-3 sm:h-20 lg:h-[88px]">
-        <a
-          href="#hero"
-          className="group flex items-center gap-2 sm:gap-3 shrink-0"
-        >
+        <a href="#hero" className="group flex items-center gap-0 shrink-0">
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
             src="/assets/img/nitro-logo.png"
             alt="nitro logo"
-            className="h-10 w-auto transition-transform duration-300 group-hover:scale-105 sm:h-16 lg:h-[100px]"
+            className="h-12 w-auto transition-transform duration-300 group-hover:scale-105 sm:h-16 lg:h-[52px]"
           />
           <span className="flex flex-col leading-none">
             <span
