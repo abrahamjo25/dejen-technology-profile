@@ -98,7 +98,12 @@ export default function Header() {
             type="button"
             aria-label="Toggle menu"
             aria-expanded={open}
-            onClick={() => setOpen((v) => !v)}
+            onClick={() => {
+              setOpen((v) => {
+                if (!v) window.scrollTo({ top: 0, behavior: "smooth" });
+                return !v;
+              });
+            }}
             className="grid h-9 w-9 place-items-center rounded-lg border border-line text-foreground xl:hidden"
             style={{ background: "var(--glass-bg)" }}
           >
