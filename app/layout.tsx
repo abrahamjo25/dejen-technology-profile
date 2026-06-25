@@ -40,8 +40,8 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://nitro.com",
-    siteName: "nitro",
+    url: "https://nitrodev.com",
+    siteName: "nitrodev",
     title: "nitro — Software Development & ERP Solutions",
     description:
       "We design and build ERP systems, custom software, SaaS products and apps — for organizations in every sector. Based in Addis Ababa, Ethiopia.",
@@ -117,7 +117,7 @@ export default function RootLayout({
                 "@type": "ContactPoint",
                 telephone: "+251-920-223-703",
                 contactType: "customer service",
-                email: "info@dejentech.com",
+                email: "nitrodevteam@gmail.com",
               },
               sameAs: [],
               offers: {
