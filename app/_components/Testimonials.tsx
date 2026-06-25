@@ -9,7 +9,7 @@ export default function Testimonials() {
   const t = dict.testimonials;
 
   return (
-    <section id="testimonials" className="py-24">
+    <section id="testimonials" className="py-16 sm:py-24">
       <div className="container-x">
         <SectionHeading eyebrow={t.eyebrow} title={t.title} accent={t.titleAccent} />
         <div className="mx-auto grid max-w-4xl gap-6 md:grid-cols-2">

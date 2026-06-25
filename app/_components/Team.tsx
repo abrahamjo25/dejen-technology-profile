@@ -46,7 +46,7 @@ export default function Team() {
   return (
     <section
       id="team"
-      className="py-24"
+      className="py-16 sm:py-24"
       style={{ background: "var(--section-alt)" }}
     >
       <div className="container-x">

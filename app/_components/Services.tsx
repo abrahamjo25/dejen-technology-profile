@@ -11,7 +11,7 @@ export default function Services() {
   const t = dict.services;
 
   return (
-    <section id="services" className="py-24" style={{ background: "var(--section-alt)" }}>
+    <section id="services" className="py-16 sm:py-24" style={{ background: "var(--section-alt)" }}>
       <div className="container-x">
         <SectionHeading
           eyebrow={t.eyebrow}

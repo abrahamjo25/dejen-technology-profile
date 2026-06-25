@@ -11,7 +11,7 @@ export default function Industries() {
   const t = dict.industries;
 
   return (
-    <section id="industries" className="py-24">
+    <section id="industries" className="py-16 sm:py-24">
       <div className="container-x">
         <SectionHeading
           eyebrow={t.eyebrow}

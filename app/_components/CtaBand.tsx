@@ -12,7 +12,7 @@ export default function CtaBand() {
       <div className="container-x">
         <Reveal>
           <div
-            className="relative overflow-hidden rounded-3xl border border-line p-12 text-center backdrop-blur-md sm:p-16"
+            className="relative overflow-hidden rounded-2xl border border-line p-8 text-center backdrop-blur-md sm:rounded-3xl sm:p-12 sm:p-16"
             style={{
               background:
                 "linear-gradient(135deg, rgba(139,92,246,.22), rgba(168,85,247,.10))",

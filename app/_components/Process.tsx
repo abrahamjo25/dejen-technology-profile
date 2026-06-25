@@ -9,7 +9,7 @@ export default function Process() {
   const t = dict.process;
 
   return (
-    <section id="process" className="py-24" style={{ background: "var(--section-alt)" }}>
+    <section id="process" className="py-16 sm:py-24" style={{ background: "var(--section-alt)" }}>
       <div className="container-x">
         <SectionHeading eyebrow={t.eyebrow} title={t.title} accent={t.titleAccent} />
         <div className="grid gap-5 md:grid-cols-2 lg:grid-cols-4">

@@ -17,8 +17,8 @@ export default function Footer() {
 
   return (
     <footer className="border-t border-line" style={{ background: "var(--header-bg)" }}>
-      <div className="container-x py-16">
-        <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-[2fr_1fr_1fr_1.4fr]">
+      <div className="container-x py-12 sm:py-16">
+        <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-[2fr_1fr_1fr_1.4fr] lg:gap-10">
           <div>
             <span className="font-heading text-2xl font-bold tracking-[3px]" style={{ background: "linear-gradient(135deg, var(--c-accent), var(--c-accent-2))", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent" }}>NITRO</span>
             <p className="mt-1 font-nav text-[11px] font-medium tracking-[1.5px] uppercase text-muted/80">We Build. You Accelerate.</p>
@@ -76,7 +76,7 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="mt-12 border-t border-line pt-6 text-center text-[13px] text-muted">
+        <div className="mt-10 border-t border-line pt-6 text-center text-[13px] text-muted sm:mt-12">
           {t.rights}
         </div>
       </div>

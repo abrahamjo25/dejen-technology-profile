@@ -77,6 +77,7 @@
 @layer base {
   html {
     scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
   }
   body {
     @apply bg-background text-foreground font-sans antialiased;
@@ -89,6 +90,10 @@
   ::selection {
     background: var(--c-accent);
     color: #fff;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
   }
 }
 
@@ -113,7 +118,7 @@
   }
 
   .container-x {
-    @apply max-w-container mx-auto px-6;
+    @apply max-w-container mx-auto px-4 sm:px-6;
   }
 
   .glass {
@@ -137,7 +142,7 @@
   }
 
   .btn {
-    @apply inline-flex items-center justify-center gap-2 rounded-full font-nav text-[15px] font-medium px-7 py-3 transition-all duration-300 border border-transparent cursor-pointer;
+    @apply inline-flex items-center justify-center gap-2 rounded-full font-nav text-[14px] font-medium px-5 py-2.5 transition-all duration-300 border border-transparent cursor-pointer sm:text-[15px] sm:px-7 sm:py-3;
   }
   .btn-primary {
     @apply text-white shadow-glow;
@@ -156,7 +161,7 @@
   }
 
   .card {
-    @apply glass rounded-2xl p-8 transition-all duration-300;
+    @apply glass rounded-2xl p-6 transition-all duration-300 sm:p-8;
   }
   .card:hover {
     @apply -translate-y-1.5;
@@ -165,12 +170,12 @@
   }
 
   .icon-badge {
-    @apply grid h-14 w-14 place-items-center rounded-xl border border-line text-heading text-2xl;
+    @apply grid h-12 w-12 place-items-center rounded-xl border border-line text-heading text-xl sm:h-14 sm:w-14 sm:text-2xl;
     background: linear-gradient(135deg, rgba(0, 255, 135, 0.25), rgba(0, 180, 216, 0.15));
   }
 
   .field {
-    @apply w-full rounded-xl border border-line px-4 py-3 text-[15px] text-foreground outline-none transition-colors;
+    @apply w-full rounded-xl border border-line px-3 py-2.5 text-sm text-foreground outline-none transition-colors sm:px-4 sm:py-3 sm:text-[15px];
     background: var(--input-bg);
   }
   .field:focus {

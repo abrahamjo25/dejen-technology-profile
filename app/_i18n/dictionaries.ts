@@ -15,7 +15,6 @@ export const en = {
     subtitle:
       "We design and build ERP systems, custom software, SaaS products and apps — for organizations in every sector, from education and agriculture to finance and government.",
     ctaPrimary: "Book a free consultation",
-    // ctaSecondary: "See our work",
     trust: "Trusted since 2022 · Addis Ababa, Ethiopia",
     chipErp: "ERP · Finance · HR · CRM",
     chipSpeed: "Live in weeks, not months",
@@ -180,7 +179,6 @@ export const en = {
     subtitle:
       "Book a free consultation and we'll map out the right solution for your organization.",
     primary: "Book a free consultation",
-    // secondary: "See our work",
   },
   contact: {
     eyebrow: "Get in touch",
@@ -203,6 +201,9 @@ export const en = {
     messageLabel: "Message",
     messagePlaceholder: "Tell us what you need…",
     send: "Send message",
+    sending: "Sending…",
+    successMessage: "Your message has been sent successfully! We'll get back to you soon.",
+    errorMessage: "Failed to send your message. Please try again or contact us directly.",
   },
   footer: {
     tagline:
@@ -247,7 +248,6 @@ export const am: Dictionary = {
     subtitle:
       "ለሁሉም ዘርፍ ድርጅቶች — ከትምህርትና ግብርና እስከ ፋይናንስና መንግሥት — የERP ሲስተሞችን፣ ብጁ ሶፍትዌሮችን፣ የSaaS ምርቶችንና አፕሊኬሽኖችን እንነድፋለን፤ እንገነባለንም።",
     ctaPrimary: "ነፃ ምክክር ይያዙ",
-    // ctaSecondary: "ስራዎቻችንን ይመልከቱ",
     trust: "ከ2022 ጀምሮ የታመነ · አዲስ አበባ፣ ኢትዮጵያ",
     chipErp: "ERP · ፋይናንስ · ሰው ኃይል · CRM",
     chipSpeed: "በሳምንታት ውስጥ ዝግጁ፣ በወራት አይደለም",
@@ -306,7 +306,7 @@ export const am: Dictionary = {
     eyebrow: "የምናገለግላቸው ዘርፎች",
     title: "ለሁሉም",
     titleAccent: "ዘርፍ የተሰራ።",
-    subtitle: "ድርጅትዎ የትም ቢሰራ፣ መፍትሄውን እናስማማለን።",
+    subtitle: "ድርጅትዎ የትም ቢሰራ፣ መፍትሄውን እናማማለን።",
     items: [
       { title: "ትምህርት", desc: "ትምህርት ቤቶች፣ ዩኒቨርሲቲዎች፣ ኢ-ለርኒንግ" },
       { title: "ግብርና", desc: "የአቅርቦት ሰንሰለት፣ ክትትል" },
@@ -389,7 +389,6 @@ export const am: Dictionary = {
     title: "ንግድዎን ለማቀላጠፍ ዝግጁ ነዎት?",
     subtitle: "ነፃ ምክክር ይያዙ፤ ለድርጅትዎ ትክክለኛውን መፍትሄ እናቅዳለን።",
     primary: "ነፃ ምክክር ይያዙ",
-    // secondary: "ስራዎቻችንን ይመልከቱ",
   },
   contact: {
     eyebrow: "ያግኙን",
@@ -412,6 +411,9 @@ export const am: Dictionary = {
     messageLabel: "መልዕክት",
     messagePlaceholder: "የሚፈልጉትን ይንገሩን…",
     send: "መልዕክት ይላኩ",
+    sending: "በመላክ ላይ…",
+    successMessage: "መልዕክትዎ በተሳካ ሁኔታ ተልኳል! በቅርቡ እንመልሳለን።",
+    errorMessage: "መልዕክትዎን መላክ አልተቻለም። እባክዎ እንደገና ይሞክሩ ወይም በቀጥታ ያግኙን።",
   },
   footer: {
     tagline: "የሶፍትዌር ልማት ኩባንያ — እንገነባለን፣ እርስዎ ያድጋሉ።",

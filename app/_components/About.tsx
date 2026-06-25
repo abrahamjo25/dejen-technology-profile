@@ -9,12 +9,12 @@ export default function About() {
   const t = dict.about;
 
   return (
-    <section id="about" className="py-24">
+    <section id="about" className="py-16 sm:py-24">
       <div className="container-x">
         <SectionHeading eyebrow={t.eyebrow} title={t.title} accent={t.titleAccent} />
         <div className="grid items-start gap-8 lg:grid-cols-2">
           <Reveal>
-            <p className="text-lg leading-relaxed text-muted">{t.body}</p>
+            <p className="text-base leading-relaxed text-muted sm:text-lg">{t.body}</p>
           </Reveal>
           <Reveal delay={120} className="grid gap-5">
             <div className="card">

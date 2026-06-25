@@ -17,11 +17,21 @@ export default function Header() {
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
 
+  useEffect(() => {
+    if (open) {
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "";
+    }
+    return () => {
+      document.body.style.overflow = "";
+    };
+  }, [open]);
+
   const links: { href: string; label: string }[] = [
     { href: "#hero", label: dict.nav.home },
     { href: "#services", label: dict.nav.services },
     { href: "#industries", label: dict.nav.industries },
-    // { href: "#work", label: dict.nav.work },
     { href: "#process", label: dict.nav.process },
     { href: "#contact", label: dict.nav.contact },
   ];
@@ -34,17 +44,20 @@ export default function Header() {
         backdropFilter: scrolled ? "blur(16px)" : "none",
       }}
     >
-      <div className="container-x flex h-[74px] items-center justify-between gap-4">
-        <a href="#hero" className="group flex items-center gap-3">
+      <div className="container-x flex h-16 items-center justify-between gap-3 sm:h-20 lg:h-[88px]">
+        <a
+          href="#hero"
+          className="group flex items-center gap-2 sm:gap-3 shrink-0"
+        >
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
             src="/assets/img/nitro-logo.png"
             alt="nitro logo"
-            className="h-14 w-auto transition-transform duration-300 group-hover:scale-105"
+            className="h-10 w-auto transition-transform duration-300 group-hover:scale-105 sm:h-16 lg:h-[102px]"
           />
           <span className="flex flex-col leading-none">
             <span
-              className="font-heading text-[22px] font-bold tracking-[3px] transition-colors duration-300 group-hover:text-accent"
+              className="font-heading text-lg font-bold tracking-[3px] transition-colors duration-300 group-hover:text-accent sm:text-2xl lg:text-[26px]"
               style={{
                 background:
                   "linear-gradient(135deg, var(--c-accent), var(--c-accent-2))",
@@ -54,13 +67,13 @@ export default function Header() {
             >
               NITRO
             </span>
-            <span className="mt-0.5 font-nav text-[10px] font-medium tracking-[1.5px] uppercase text-muted/80">
+            <span className="mt-0.5 hidden font-nav text-[10px] font-medium tracking-[1.5px] uppercase text-muted/80 sm:text-[11px] lg:block">
               We Build. You Accelerate.
             </span>
           </span>
         </a>
 
-        <nav className="hidden items-center gap-7 lg:flex">
+        <nav className="hidden items-center gap-7 xl:flex">
           {links.map((l) => (
             <a
               key={l.href}
@@ -72,20 +85,21 @@ export default function Header() {
           ))}
         </nav>
 
-        <div className="flex items-center gap-2.5">
+        <div className="flex items-center gap-2">
           <LanguageToggle />
           <ThemeToggle />
           <a
             href="#contact"
-            className="btn btn-primary hidden md:inline-flex !px-5 !py-2 text-sm"
+            className="btn btn-primary hidden lg:inline-flex !px-5 !py-2 text-sm"
           >
             {dict.nav.cta}
           </a>
           <button
             type="button"
             aria-label="Toggle menu"
+            aria-expanded={open}
             onClick={() => setOpen((v) => !v)}
-            className="grid h-9 w-9 place-items-center rounded-lg border border-line text-foreground lg:hidden"
+            className="grid h-9 w-9 place-items-center rounded-lg border border-line text-foreground xl:hidden"
             style={{ background: "var(--glass-bg)" }}
           >
             <svg
@@ -108,35 +122,37 @@ export default function Header() {
       </div>
 
       {/* mobile menu */}
-      {open && (
-        <div
-          className="border-t border-line lg:hidden"
-          style={{
-            background: "var(--header-bg)",
-            backdropFilter: "blur(16px)",
-          }}
-        >
-          <nav className="container-x flex flex-col py-4">
-            {links.map((l) => (
-              <a
-                key={l.href}
-                href={l.href}
-                onClick={() => setOpen(false)}
-                className="border-b border-line/60 py-3 font-nav text-foreground last:border-0 hover:text-heading"
-              >
-                {l.label}
-              </a>
-            ))}
+      <div
+        className={`fixed inset-x-0 top-16 bottom-0 z-40 overflow-auto xl:hidden ${
+          open
+            ? "opacity-100 pointer-events-auto"
+            : "opacity-0 pointer-events-none"
+        }`}
+        style={{
+          background: "var(--c-bg)",
+          backdropFilter: "blur(24px)",
+        }}
+      >
+        <nav className="container-x flex flex-col py-6">
+          {links.map((l) => (
             <a
-              href="#contact"
+              key={l.href}
+              href={l.href}
               onClick={() => setOpen(false)}
-              className="btn btn-primary mt-4"
+              className="border-b border-line/60 py-4 font-nav text-lg font-medium text-foreground last:border-0 hover:text-accent"
             >
-              {dict.nav.cta}
+              {l.label}
             </a>
-          </nav>
-        </div>
-      )}
+          ))}
+          <a
+            href="#contact"
+            onClick={() => setOpen(false)}
+            className="btn btn-primary mt-6"
+          >
+            {dict.nav.cta}
+          </a>
+        </nav>
+      </div>
     </header>
   );
 }
