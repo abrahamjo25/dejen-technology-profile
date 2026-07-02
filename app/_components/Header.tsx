@@ -47,11 +47,7 @@ export default function Header() {
       <div className="container-x flex h-16 items-center justify-between gap-3 sm:h-20 lg:h-[88px]">
         <a href="#hero" className="group flex items-center gap-0 shrink-0">
           {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img
-            src="/assets/img/nitro-logo.png"
-            alt="nitro logo"
-            className="h-12 w-auto transition-transform duration-300 group-hover:scale-105 sm:h-16 lg:h-[52px]"
-          />
+          <span className="flex flex-col leading-none"></span>
           <span className="flex flex-col leading-none">
             <span
               className="font-heading text-lg font-bold tracking-[3px] transition-colors duration-300 group-hover:text-accent sm:text-2xl lg:text-[26px]"
@@ -62,10 +58,11 @@ export default function Header() {
                 WebkitTextFillColor: "transparent",
               }}
             >
-              NITRO
-            </span>
-            <span className="mt-0.5 hidden font-nav text-[10px] font-medium tracking-[1.5px] uppercase text-muted/80 sm:text-[11px] lg:block">
-              We Build. You Accelerate.
+              <img
+                src="/assets/img/nitro-logo.png"
+                alt="nitro logo"
+                className="h-32 w-auto transition-transform duration-300 group-hover:scale-105 sm:h-16 lg:h-[256px]"
+              />
             </span>
           </span>
         </a>
